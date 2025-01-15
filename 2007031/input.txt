@@ -1,0 +1,10 @@
+class ID:
+def __init__(self, value=20, ids=5):
+self.value = value
+self.ids = ids
+def myfunc(self):
+print("Hello, my ID is" + self.ids)
+print("Value set at" + self.value)
+classend 
+
+
